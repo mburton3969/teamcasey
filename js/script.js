@@ -460,6 +460,7 @@
     if (plugins.pageLoader.length > 0) {
       $window.on("load", function () {
         setTimeout(function () {
+          console.log('Page Load Triggered');
           plugins.pageLoader.addClass("loaded");
           $window.trigger("resize");
         }, 1000);
