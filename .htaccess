@@ -8,4 +8,4 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Do not remove this line, otherwise mod_rewrite rules will stop working
 RewriteBase /
 
-DirectoryIndex index.html
+DirectoryIndex coming-soon.html
